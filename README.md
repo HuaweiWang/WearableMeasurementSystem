@@ -16,7 +16,7 @@
 ### How to set up? ###
 * Set up the Xsens Suit and link to the MVN software. Refer to this [video list](https://youtube.com/playlist?list=PLvZN9PInPo3EVsQ0ulQcV7U5eVvOtEdld) for detail steps.
 * Turn on the remote control (and the remote data streaming feature if frame by frame data streaming is needed)
-<img src="image/remote-control-setup-mvn.JPG" width="300">  <img src="image/data-streaming-setup-mvn.JPG" width="500">
+<img src="image/remote-control-setup-mvn.JPG" width="250">  <img src="image/data-streaming-setup-mvn.JPG" width="500">
 
 * Set up the Moticon insoles inside the OpenGo mobile App. Refer to this [doc](https://account.moticon.com/doc-opengo-app-documentation-overview) for detial steps.
 * Set up the python environment for remote control, link the EndPoint SDK and install required packages
