@@ -14,11 +14,14 @@
 * Moticon EndPoint SDK
 
 ### How to set up? ###
-* Set up the Xsens Suit inside the MVN software
+* Set up the Xsens Suit and link to the MVN software. Refer to this [video list](https://youtube.com/playlist?list=PLvZN9PInPo3EVsQ0ulQcV7U5eVvOtEdld) for detail steps.
 * Turn on the remote control (and the remote data streaming feature if frame by frame data streaming is needed)
-* Set up the Moticon insoles inside hte OpenGo mobile App
+![remote control](image/remote-control-setup-mvn.png)
+![data streaming](image/data-streaming-setup-mvn.png)
+
+* Set up the Moticon insoles inside the OpenGo mobile App
 * Set up the python environment for remote control, link the EndPoint SDK and install required packages
-* Connect the Mobile phone (for OpenGo app) and the computer host (for python env) into the same sub-network. It is not recommend to use the University network, which may have issue of the UDP connnection.
+* Connect the Mobile phone (for OpenGo app) and the computer host (for python env) into the same sub-network. It is not recommend to use the University public network, which may have issue of the UDP connnection.
 * Check the IP address of the mobile phone (in the setting of OpenGo app) and the computer host. Change them in the python.
 * Run the python code, which will stay in idel mode.
 * Start and stop recording using the OpenGo app. 
