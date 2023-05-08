@@ -16,11 +16,8 @@
 ### How to set up? ###
 * Set up the Xsens Suit and link to the MVN software. Refer to this [video list](https://youtube.com/playlist?list=PLvZN9PInPo3EVsQ0ulQcV7U5eVvOtEdld) for detail steps.
 * Turn on the remote control (and the remote data streaming feature if frame by frame data streaming is needed)
-<img src="image/remote-control-setup-mvn.JPG" width="200">
-<img src="image/data-streaming-setup-mvn.JPG" width="400">
+<img src="image/remote-control-setup-mvn.JPG" width="300">  <img src="image/data-streaming-setup-mvn.JPG" width="500">
 
-![remote control](image/remote-control-setup-mvn.JPG | width=200)
-![data streaming](image/data-streaming-setup-mvn.JPG | width=400)
 * Set up the Moticon insoles inside the OpenGo mobile App. Refer to this [doc](https://account.moticon.com/doc-opengo-app-documentation-overview) for detial steps.
 * Set up the python environment for remote control, link the EndPoint SDK and install required packages
 	- For windows user (xsens mvn only works on windows so far), [Anaconda](https://www.anaconda.com/) is a good choice.
@@ -37,8 +34,10 @@
 	- Once it detected the data flow, all recording will be started.
 
 ### Two modes ###
-* XsensMotion_RemoteControl_SychronizedRecording.py : for synchronized recording in each system (Moticon pressure insoles and Xsens MVN software)
-* XsensMoticon_FrameByFrameStream_UDP.py: for frame by frame data streaming
+* XsensMotion_RemoteControl_SychronizedRecording.py : 
+	- For synchronized recording in each system (Moticon pressure insoles and Xsens MVN software)
+* XsensMoticon_FrameByFrameStream_UDP.py: 
+	- For frame by frame data streaming
 
 ### Contribution guidelines ###
 
@@ -48,12 +47,12 @@
 ### Citation ###
 ```BibTeX
 @article{Wearable_2023,
-		author={Wang, Huawei and Basu, Akash and Durandau, Guillaume and Sartori, Massimo},
-		title={A wearable real-time kinetic measurement sensor setup for human locomotion}, 
-		journal={Wearable Technologies}, 
-		publisher={Cambridge University Press}, 
-		year={2023}, volume={4}, pages={e11},
-		DOI={10.1017/wtc.2023.7}}
+	author={Wang, Huawei and Basu, Akash and Durandau, Guillaume and Sartori, Massimo},
+	title={A wearable real-time kinetic measurement sensor setup for human locomotion}, 
+	journal={Wearable Technologies}, 
+	publisher={Cambridge University Press}, 
+	year={2023}, volume={4}, pages={e11},
+	DOI={10.1017/wtc.2023.7}}
 ```
 ### Who do I talk to? ###
 
